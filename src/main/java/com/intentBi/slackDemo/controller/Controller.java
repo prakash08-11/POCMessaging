@@ -12,6 +12,7 @@ import java.io.IOException;
 public class Controller {
     @PostMapping("/getimage")
     public byte[] getImage(@RequestBody ReportRequest request){
+
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
         try {
             BufferedImage bImage= ImageIO.read(new File("/Users/Prakash/Downloads/293040.png"));
@@ -26,4 +27,5 @@ public class Controller {
     public String serviceMethod () {
         return "Service Successfully Established";
     }
+
 }

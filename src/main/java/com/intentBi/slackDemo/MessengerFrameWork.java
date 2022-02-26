@@ -8,10 +8,10 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 
 @SpringBootApplication
-public class SlackDemoApplication {
+public class MessengerFrameWork {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SlackDemoApplication.class, args);
+		SpringApplication.run(MessengerFrameWork.class, args);
 
 		try {
 			//Register the Telegram####
